@@ -12,19 +12,25 @@ Small, dependency-free reference implementation for everyday use. Feedback welco
 
 
 ## Project structure
-
 ```
 .
-├── cmd/
-├── internal/
-└── go.mod
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── .gitignore
+├── LICENSE
+├── README.md
+├── go.mod
+├── main.go
+└── utils.go
 ```
 
 ## Usage
 
 ```bash
-python3 main.py
+go run main.go
 ```
+
 
 ## Notes
 
