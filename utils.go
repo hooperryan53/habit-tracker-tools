@@ -12,3 +12,5 @@ func Chunk(items []int, n int) [][]int {
 	}
 	return out
 }
+
+// TODO: handle the error case
